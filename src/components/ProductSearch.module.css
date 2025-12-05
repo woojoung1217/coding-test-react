@@ -1,0 +1,37 @@
+.searchContainer {
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 20px auto;
+  font-family: sans-serif;
+}
+
+.searchContainer h2 {
+  margin-top: 0;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* padding이 width에 포함되도록 설정 */
+  margin-bottom: 16px;
+}
+
+.resultsList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.resultsList li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.resultsList li:last-child {
+  border-bottom: none;
+}
